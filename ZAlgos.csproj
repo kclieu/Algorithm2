@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D3059E9-7C59-4942-B9AC-BDB65C06748F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algos</RootNamespace>
+    <AssemblyName>Algos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADT\AnimalQueue.cs" />
+    <Compile Include="ADT\BinarySearchTree.cs" />
+    <Compile Include="ADT\LinkSiblingBST.cs" />
+    <Compile Include="ADT\MyQueue.cs" />
+    <Compile Include="ADT\SetOfStacks.cs" />
+    <Compile Include="ADT\SortedStack.cs" />
+    <Compile Include="ADT\StackWithMin.cs" />
+    <Compile Include="ADT\TowerOfHanoi.cs" />
+    <Compile Include="Amazon\AWS_DCS_9_14_2016\Penguins.cs" />
+    <Compile Include="Amazon\AWS_DCS_9_14_2016\TagAProduct.cs" />
+    <Compile Include="Amazon\SocialNetwork\SocialNetworkCourses.cs" />
+    <Compile Include="Amazon\SocialNetwork\SocialNetworkFriends.cs" />
+    <Compile Include="Arrays\Array.cs" />
+    <Compile Include="BFS\TransformWords.cs" />
+    <Compile Include="BinarySearchTree.cs" />
+    <Compile Include="BinaryTree.cs" />
+    <Compile Include="BitManipulations.cs" />
+    <Compile Include="BuildLongestWord.cs" />
+    <Compile Include="CCI\ThreadsandLocks\Account.cs" />
+    <Compile Include="CCI\ThreadsandLocks\MySemaphore.cs" />
+    <Compile Include="Chap 9\CountWays.cs" />
+    <Compile Include="Chap 9\GetSubsets.cs" />
+    <Compile Include="Chap8\8-4\Vehicle.cs" />
+    <Compile Include="CoinChangeDP.cs" />
+    <Compile Include="DP\KnapSackDP.cs" />
+    <Compile Include="DP\PartitionDP.cs" />
+    <Compile Include="DP\PriceLengthDP.cs" />
+    <Compile Include="EP\Chap12 - HashTable\MyHashTable.cs" />
+    <Compile Include="EP\Chap15\LongestNondecreasingSubsequence.cs" />
+    <Compile Include="EP\Chap15\SubsetSum.cs" />
+    <Compile Include="EP\Chap17\CollatzConjecture.cs" />
+    <Compile Include="EP\Chap17\LevenshteinDistance.cs" />
+    <Compile Include="EP\Chap5\GCD.cs" />
+    <Compile Include="EP\Chap5\Primes.cs" />
+    <Compile Include="EP\Chap6\MaxDiff.cs" />
+    <Compile Include="EP\Chap6\MaximumSumContiguous.cs" />
+    <Compile Include="GameOfLife.cs" />
+    <Compile Include="Graph\BreadthFirstPaths.cs" />
+    <Compile Include="Graph\DepthFirstPaths.cs" />
+    <Compile Include="Graph\DepthFirstSearch.cs" />
+    <Compile Include="Graph\DijkstraSP.cs" />
+    <Compile Include="Graph\DirectedCycle.cs" />
+    <Compile Include="Graph\DirectedDFS.cs" />
+    <Compile Include="Graph\DirectedEdge.cs" />
+    <Compile Include="Graph\EdgeWeightedDiagraph.cs" />
+    <Compile Include="Graph\Graph.cs" />
+    <Compile Include="Graph\IndexMinPQ.cs" />
+    <Compile Include="MyMath.cs" />
+    <Compile Include="Graph\Maze.cs" />
+    <Compile Include="Graph\Pair.cs" />
+    <Compile Include="Graph\StringTransformation.cs" />
+    <Compile Include="InplaceSwap.cs" />
+    <Compile Include="InsertionSort.cs" />
+    <Compile Include="KnapSack\KnapSack.cs" />
+    <Compile Include="LinkedList\CircularLinkedList.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="MazeDFS.cs" />
+    <Compile Include="MultiplicationTable.cs" />
+    <Compile Include="PowerSet.cs" />
+    <Compile Include="Program\ProgramEPI.cs" />
+    <Compile Include="Program\ProgramSTF.cs" />
+    <Compile Include="Program\Program1.cs" />
+    <Compile Include="Program\Program3.cs" />
+    <Compile Include="Program\Program2.cs" />
+    <Compile Include="Program\Program4.cs" />
+    <Compile Include="Program\ProgramBST.cs" />
+    <Compile Include="Program\ProgramBST2.cs" />
+    <Compile Include="Program\ProgramCir.cs" />
+    <Compile Include="Program\ProgramMaze.cs" />
+    <Compile Include="Program\ProgramStringManip.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ADT\Queue.cs" />
+    <Compile Include="QuickSort.cs" />
+    <Compile Include="ScalabilityMemoryLimits\Server.cs" />
+    <Compile Include="Searching\Search.cs" />
+    <Compile Include="Soduko.cs" />
+    <Compile Include="SortAnagrams.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
+    <Compile Include="Sorting\HumanTower.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="ADT\Stack.cs" />
+    <Compile Include="Graph\DepthFirstOrder.cs" />
+    <Compile Include="Graph\Digraph.cs" />
+    <Compile Include="StandfordDA1\FindSecondLargest.cs" />
+    <Compile Include="StandfordDA1\Inversion.cs" />
+    <Compile Include="StandfordDA1\HW4\KosarajuSharirSCC.cs" />
+    <Compile Include="StandfordDA1\QuickSortStf.cs" />
+    <Compile Include="StandfordDA1\SCCKosaraju2.cs" />
+    <Compile Include="StandfordDA1\SCCKosaraju.cs" />
+    <Compile Include="StandfordDA1\UniModal.cs" />
+    <Compile Include="StringManipulations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringPermutations.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="TicTacDo.cs" />
+    <Compile Include="TreeNode.cs" />
+    <Compile Include="UCSD Courses\BellmanFord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UCSD Courses\Data Structures\A2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\WordDictionary.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q4\SCC.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q4\SCCMedtest.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q4\SCCTest2.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q4\SCCTest1.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q5\dijkstraData.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q5\mediumEWD.txt" />
+    <Content Include="StandfordDA1\Data\Programming Q5\tinyEWD.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

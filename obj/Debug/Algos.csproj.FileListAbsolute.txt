@@ -1,0 +1,6 @@
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\bin\Debug\Algos.exe.config
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\bin\Debug\Algos.exe
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\bin\Debug\Algos.pdb
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\obj\Debug\Algos.exe
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\obj\Debug\Algos.pdb
+C:\Projects\dnab.wdc.com\BrandedDNA\Algos\obj\Debug\Algos.csprojResolveAssemblyReference.cache
